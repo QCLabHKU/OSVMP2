@@ -10,7 +10,6 @@ This repository contains the source code and build instructions for **OSVMP2**, 
 * DF: incore, outcore and direct
 * Non-DF (GPU only): direct
 * Energy
-* Gradients (old version only)
 
 
 ### To-do
