@@ -1,0 +1,14 @@
+%NProcshared=16
+%mem=10gb
+%chk=test.chk
+#N B2PLYP/cc-pvtz force
+
+O2H
+
+0 2
+[coord]
+
+
+
+
+
