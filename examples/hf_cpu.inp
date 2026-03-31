@@ -1,0 +1,12 @@
+# Calculation inputs
+verbose = 5
+max_memory = 8000 # MB
+method = hf 
+cal_mode = energy
+int_storage = 2 # 0: incore, 1: outcore, 2:direct 3: GPU-incore
+
+# Molecule inputs
+basis = ccpvtz
+charge = 0
+spin = 0
+xyz_file = ./water8.xyz # Path to the xyz file

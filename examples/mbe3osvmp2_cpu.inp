@@ -1,0 +1,24 @@
+# Calculation inputs
+verbose = 5
+max_memory = 8000 # MB
+method = mbeosvmp2 #
+cal_mode = energy
+int_storage = 0 # 0: incore, 1: outcore, 2:direct 3: GPU-incore
+local_type = 1 # 0:canonical, 1:PM, 2:boys 3:cholesky
+use_frozen = True # frozen core approximation
+svd_method = 1 # 0: exact SVD, 1: rand-SVD, 2: ID-SVD
+
+# Thresholds
+loc_tol = 1e-6  # localization tolerance
+osv_tol = 1e-4  # OSV cutoff
+remo_tol = 1e-2 # define weak pairs
+disc_tol = 1e-7 # define pairs to be discarded
+threeb_tol = 0.2 # 3-body cluster cutoff
+shell_tol = 1e-10 # AO shell pairs cutoff
+fit_tol = 1e-6 # sparse fitting cutoff
+
+# Molecule inputs
+basis = ccpvdz
+charge = 0
+spin = 0
+xyz_file = water8.xyz # Path to the xyz file
