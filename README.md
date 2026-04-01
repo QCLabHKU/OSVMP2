@@ -7,8 +7,8 @@ A high-performance quantum chemistry package designed for parallel OSV-MP2 and M
 ## Features
 * Hartree Fock
 * OSV-MP2, MBE(3)-OSV-MP2, and MBE(3)-OSV-MP2 with global corrections
-* DF: incore, outcore and direct
-* Non-DF (GPU only): direct
+* Density fitting: incore, outcore and direct
+* Without density fitting (for HF on GPU only): direct
 * Energy
 
 
