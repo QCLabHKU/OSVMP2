@@ -1,6 +1,6 @@
 # OSVMP2
 
-This repository contains the source code and build instructions for **OSVMP2**, a high-performance quantum chemistry package designed for parallel OSV-MP2 and MBE(3)-OSV-MP2 calculations on CPU and GPU architectures.
+A high-performance quantum chemistry package designed for parallel OSV-MP2 and MBE(3)-OSV-MP2 calculations on CPU and GPU architectures.
 
 ---
 
