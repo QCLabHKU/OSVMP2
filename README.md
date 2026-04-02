@@ -34,6 +34,11 @@ A high-performance quantum chemistry package designed for parallel OSV-MP2 and M
 * **openMM**
 * **ParmEd**
 
+Verify that all required dependencies are installed by running:
+
+```bash
+python check_dependency.py
+```
 ---
 
 ## Build Instructions
