@@ -158,7 +158,7 @@ def read_inputs():
         
         "solvent": None,
         "use_df_hf": True,
-        "fully_direct": 1,
+        "fully_direct": False,
     }
 
     def load_variable(inputs, var_name, value):
