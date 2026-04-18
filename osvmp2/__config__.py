@@ -1,6 +1,5 @@
 import os
 import sys
-import numpy as np
 from mpi4py import MPI
 
 def num_from_environ(val, dtype):
@@ -16,13 +15,12 @@ def num_from_environ(val, dtype):
         return formater(val)
 
 def strl2list(strl, dtype='i'):
-    dtype = np.dtype(dtype)
     if strl is None:
         return None
     else:
-        if np.issubdtype(dtype, np.integer):
+        if dtype == "i":
             formater = int
-        elif np.issubdtype(dtype, np.floating):
+        elif dtype == "f":
             formater = float
         else:
             raise NotImplementedError
