@@ -2,6 +2,9 @@ import os
 import sys
 from osvmp2.__config__ import inputs
 os.environ["OMP_NUM_THREADS"] = inputs["omp_threads"]
+os.environ["VECLIB_MAXIMUM_THREADS"] = inputs["omp_threads"]
+os.environ["OPENBLAS_NUM_THREADS"] = inputs["omp_threads"]
+os.environ["MKL_NUM_THREADS"] = inputs["omp_threads"]
 import numpy as np
 from pyscf import gto, lib
 from pyscf.pbc import gto as pbc_gto
