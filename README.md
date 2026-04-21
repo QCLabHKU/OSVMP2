@@ -62,15 +62,24 @@ cmake --build . -j8
   cmake ../src -DCUDA_ARCHITECTURES="75;80;86"
   ```
 
-### Environment Setup
-Add the following to your shell configuration (e.g., `.bashrc`) or run them in your current session:
 
+### Environment Setup
+You can set up the **OSVMP2** environment in one of two ways:
+#### Option 1: Using the provided setup script (recommended)
 ```bash
 # Replace PATH_TO_OSVMP2 with your actual installation path
+source PATH_TO_OSVMP2/env_osvmp2.sh
+```
+
+#### Option 2: Manual export
+
+```bash
 export OSVPATH=PATH_TO_OSVMP2
 export PYTHONPATH=$OSVPATH:$PYTHONPATH
 export osvmp2=$OSVPATH/osvmp2/opt_df.py
 ```
+
+**NOTE:** Optionally, you can the lines from your chosen option to your shell configuration file (e.g., ~/.bashrc or ~/.zshrc) for a permanent setup.
 
 ---
 
